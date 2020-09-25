@@ -1,0 +1,26 @@
+{
+    "name": "ldl-framework/template-contracts",
+    "type": "library",
+    "description": "File finder",
+    "keywords": [
+        "Templating",
+        "Interface",
+	"Contracts"
+    ],
+    "homepage": "https://github.com/pthreat/ldl-template-contracts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Federico Stange",
+            "email": "jpfstange@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "LDL\\Template\\": "src/LDL/Template"
+        }
+    }
+}
